@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+li {
+  list-style: none;
+}
+
+p {
+    color: blue;
+    font-size: 40px;
+    text-align: left;
+  }
+  
+  .texto {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  /* Class */
+  .titulo {
+    color:royalblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Fuente*/
+    font-style: italic; /*estilo*/
+    font-variant: normal; /* versalitas*/
+    align-content: left;
+  
+  }
+  
+  /* ID */
+  #central{
+      border-radius: 5px;
+      width: 900px;
+      height: 200px;
+  }
+  
+  body {
+      background-color: lightblue;
+  }
+  
+  .col,.col-6, .col-12, .col-xs-12, .col-md-3, .col-md-6, .col-lg{
+    height: 80px;
+    width: 80px;
+    background: blueviolet;
+    border: 1px solid white;
+  }
+  
+  .col-md-12{
+    background: rgb(213, 195, 226);
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .pie {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+  }

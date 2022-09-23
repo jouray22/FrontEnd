@@ -1,0 +1,19 @@
+<div >
+    <div class="col-md-12"> 
+        <section id="educacion"> 
+            <article>
+                <p class="titulo">EDUCACIÒN</p>
+                    <div>
+                        <li *ngFor="let educacion of educacionList">
+                        <img 
+                            src={{educacion.src}}
+                        />
+                        <i class="fa-regular fa-pen-to-square fa-2x fa-fade"></i>
+                        <h3>{{educacion.name}} </h3>
+                        <p class="texto">{{educacion.year}}</p>
+                        <p class="texto">{{educacion.description}}</p>
+                    </div>
+            </article> 
+        </section>
+    </div>
+</div>

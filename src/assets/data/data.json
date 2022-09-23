@@ -1,0 +1,40 @@
+{
+	"name": "Johana Uray",
+	"Position": "Consultor",
+	"email": "uray.johana18@gmail.com",
+	"company": {
+		"name": "Tsoft"
+	},
+	"School": {
+		"name": "Colegio Universitario de caracas",
+		"country": "Caracas, Venezuela"
+	},
+	"live": "Buenos Aires, Argentina",
+	"about": "Apasionada del mundo TI.Descubriendo nuevos mundos en la programación. Me gusta desafiarme y asumir nuevos retos que me permitan desplegar mi potencial para formarme como profesional.",
+	"experience": {
+		"position": "CONSULTOR DE MONITOREO",
+		"company": "TSOFT",
+		"mode": "Jornada completa",
+		"task": ["Gestión de incidentes", "Instalación y/o Configuración de herramientas de monitoreo de infraestructura"]
+	},
+	"education": [{
+			"name": "ARGENTINA PROGRAMA",
+			"year": "2022",
+			"description": "Curso introductorio sobre los fundamentos básicos de la programación",
+			"src": "https://cdn-sp.radionacional.com.ar/wp-content/uploads/2021/12/Diseno-sin-titulo-1-1.png"
+		},
+		{
+			"name": "BIG DATA - CODO A CODO 4.0",
+			"year": "2022",
+			"description": "Curso sobre los fundamentos básicos de Big data"
+		},
+		{
+			"name": "ING. INFORMÁTICA - COLEGIO UNIVERSITARIO DE CARACAS",
+			"year": "2015",
+			"description": "Grado de ingeniería mención informática"
+		}
+	],
+	"competencies": {
+		"name": ["Administración servidores Windows/Linux", "Python", "HTML", "SQL"]
+	}
+}

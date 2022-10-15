@@ -2,24 +2,24 @@
     <div class="col-md-12">
         <section id="experiencia"> 
             <article>
-                <i class="fa-regular fa-pen-to-square fa-2x fa-fade"></i>
-                <i class="fa-solid fa-grid-2-plus fa-2x fa-fade"></i>
-                <p class="titulo">EXPERIENCIA</p>
-                <p class="texto"> CONSULTOR DE MONITOREO - TSOFT (2020 - ACTUAL) Buenos Aires - Argentina</p>
-                <p class="texto">- Gestión de incidentes.
-                - Instalación y/o Configuración de herramientas
-                de monitoreo de infraestructura.</p>
-                <li class="list-group-item">ANALISTA DE MONITOREO (2018-2019) Lima - Perú</li>
-                <p class="texto">- Monitoreo de recursos, servicios y aplicaciones.
-                - Reporte, escalamiento y seguimientos de
-                incidencias.</p>
-                <li class="list-group-item">ESPECIALISTA HELPDESK E INFRAESTRUCTURA (2018-2018) Lima - Perú</li>
-                <p class="texto">- Soporte a usuarios presencial y remoto.
-                - Administración de usuarios.</p>
-                <li class="list-group-item">ANALISTA DE SERVIDORES Y REDES (2016-2018) Caracas- Venezuela</li>
-                <p class="texto">- Soporte a usuarios presencial y remoto.
-                -Administración de servidores Windows / Linux
-                (Proxy, Correo, DNS)</p>
+                <i class="titulo">EXPERIENCIA LABORAL</i>
+                <i class="fa-solid fa-plus fa-2x"></i>
+
+                    <div> 
+                        <div>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let experience of experienciaList">
+                                    <img class="logos"
+                                    src={{experience.src}}
+                                    />
+                                    <h5>{{experience.position}} </h5>
+                                    <p class="texto"> {{experience.company}} - {{experience.task}} - Desde: {{experience.from}} hasta: {{experience.to}} - {{experience.mode}} </p>                                     
+                                    <span><i class="fa-regular fa-pen-to-square fa-2x"></i></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
             </article> 
         </section>
     </div>

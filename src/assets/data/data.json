@@ -1,6 +1,6 @@
 {
 	"name": "Johana Uray",
-	"Position": "Consultor",
+	"position": "Full Stack Development Jr",
 	"email": "uray.johana18@gmail.com",
 	"company": {
 		"name": "Tsoft"
@@ -11,12 +11,47 @@
 	},
 	"live": "Buenos Aires, Argentina",
 	"about": "Apasionada del mundo TI.Descubriendo nuevos mundos en la programación. Me gusta desafiarme y asumir nuevos retos que me permitan desplegar mi potencial para formarme como profesional.",
-	"experience": {
+	"banner": "https://img.freepik.com/vector-gratis/fondo-futurista-tecnologia-degradada_23-2149115236.jpg?w=740&t=st=1663971448~exp=1663972048~hmac=7018bea90d454a68cb666fd71ca15e58684f8bf16da80d8b19473ea4f05094c3",
+	"experience": [{
 		"position": "CONSULTOR DE MONITOREO",
 		"company": "TSOFT",
 		"mode": "Jornada completa",
-		"task": ["Gestión de incidentes", "Instalación y/o Configuración de herramientas de monitoreo de infraestructura"]
-	},
+		"task": ["Gestión de incidentes", "Instalación y/o Configuración de herramientas de monitoreo de infraestructura"],
+		"src": "https://www.tsoftglobal.com/wp-content/uploads/2020/08/LOGO-Tsoft-Alpha-FullColor.png",
+		"from":"2019",
+		"to":"Actual",
+		"country": "Buenos Aires - Argentina"
+		},
+		{
+		"position": "ANALISTA DE MONITOREO",
+		"company": "MI BANCO",
+		"mode": "Jornada completa",
+		"task": ["Monitoreo de recursos", "Reporte, escalamiento y seguimientos de incidencias."],
+		"src": "https://www.mibanco.com.pe/repositorioaps/data/1/1/1/zon/zona-logo/files/Logo-Mibanco.png",
+		"from":"2018",
+		"to":"2019",
+		"country": "Lima - Perú"
+		},
+		{
+		"position": "HELPDESK E INFRA",
+		"company": "TOYOTA",
+		"mode": "Jornada completa",
+		"task": ["Soporte a usuarios presencial y remoto","Administración de usuarios"],
+		"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ812buYvNzeKufKwJRf4-Ue8PqsYZVT2u1oA&usqp=CAU",
+		"from":"2018",
+		"to":"2018",
+		"country": "Lima - Perú"
+		},
+		{
+		"position": "ANALISTA DE SERVIDORES Y REDES ",
+		"company": "Procuraduria General de la repùblica",
+		"mode": "Jornada completa",
+		"task": ["Soporte a usuarios presencial y remoto","Administración de servidores Windows / Linux (Proxy, Correo, DNS)"],
+		"src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm5pdWGf3yLuNdUcuZ3z-34DVHEZU2UwfT68vv0_m5dRIz06NhZZlxi-hZtvLs6DRll3w&usqp=CAU",
+		"from":"2016",
+		"to":"2018"
+		}
+	],
 	"education": [{
 			"name": "ARGENTINA PROGRAMA",
 			"year": "2022",
@@ -26,12 +61,14 @@
 		{
 			"name": "BIG DATA - CODO A CODO 4.0",
 			"year": "2022",
-			"description": "Curso sobre los fundamentos básicos de Big data"
+			"description": "Curso sobre los fundamentos básicos de Big data",
+			"src": "https://user-images.githubusercontent.com/83146564/137408912-013f0d0c-37d1-4dc2-a1b5-77356c1003f3.png"
 		},
 		{
 			"name": "ING. INFORMÁTICA - COLEGIO UNIVERSITARIO DE CARACAS",
 			"year": "2015",
-			"description": "Grado de ingeniería mención informática"
+			"description": "Grado de ingeniería mención informática",
+			"src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Logo-CUC0.gif"
 		}
 	],
 	"competencies": {

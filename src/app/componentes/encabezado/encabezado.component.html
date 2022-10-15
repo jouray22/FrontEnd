@@ -1,26 +1,39 @@
+
 <div class="container text-center">
-    <div >
-      <div>
-        <p class="titulo">{{miportafolio.name}}</p>
-      </div>
-      <div >
-  
+  <div class="col-md-12-banner">
       <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <button type="button" class="btn btn-light justify-content-md-end" href="https://www.linkedin.com/in/johana-uray-74b14443/">Linkedin</button>
-        </li>
-        <li class="nav-item">
-            <button type="button" class="btn btn-light justify-content-md-end" >Login</button>
-        </li>
-      </ul>        
-      
-    </div>
-    <div>
-        <div>
-            <figure> 
-                <img id="central" src="imagenes/fondo.jpg"> 
-                <!--<figcaption >Imagen principal</figcaption> MUESTRA EL NOMBRE DE LA IMAGEN-->
-            </figure>  
+        <div class="hstack gap-1">
+          <div><i class="fa-solid fa-house fa-2xl"></i></div>
+          <div><i class="fa-brands fa-linkedin fa-2xl"></i></div>
+          <div><i class="fa-solid fa-user fa-2xl"></i></div>
         </div>
+      </ul>    
+  </div>
+</div>
+<div>
+  <div class="container text-center">
+    <div class="col-md-12">
+        <figure> 
+            <img class="img-fluid banner"
+              src={{miportafolio.banner}}
+             />
+            <!--<figcaption >Imagen principal</figcaption> MUESTRA EL NOMBRE DE LA IMAGEN-->
+        </figure> 
+        <br>
+        <section id="datos"> 
+          <article>
+                <div><i class="titulo">DATOS</i>
+                  <p class="datos">{{miportafolio.name}}</p>
+                  <p class="datos">{{miportafolio.position}}</p>
+                  <p class="datos">{{miportafolio.email}}</p>  
+                  </div>
+                  <div id="conten-bloque-flex">
+                      
+                    <div id="bloque-flex"><span><i class="fa-regular fa-pen-to-square fa-2x"></i></span></div>
+               </div>
+        </article> 
+      </section>
+        
     </div>
   </div>
+</div>

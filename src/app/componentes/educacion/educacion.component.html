@@ -2,16 +2,21 @@
     <div class="col-md-12"> 
         <section id="educacion"> 
             <article>
-                <p class="titulo">EDUCACIÒN</p>
-                    <div>
-                        <li *ngFor="let educacion of educacionList">
-                        <img 
-                            src={{educacion.src}}
-                        />
-                        <i class="fa-regular fa-pen-to-square fa-2x fa-fade"></i>
-                        <h3>{{educacion.name}} </h3>
-                        <p class="texto">{{educacion.year}}</p>
-                        <p class="texto">{{educacion.description}}</p>
+                <i class="titulo">EDUCACIÒN</i>
+                <i class="fa-solid fa-plus fa-2x"></i>
+                
+                    <div> 
+                        <div>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let educacion of educacionList">
+                                    <img class="logos"
+                                    src={{educacion.src}}
+                                    />
+                                    <p class="texto">{{educacion.year}} - {{educacion.name}} - {{educacion.description}} </p> 
+                                    <span><i class="fa-regular fa-pen-to-square fa-2x"></i></span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
             </article> 
         </section>
